@@ -6,6 +6,16 @@ Turn PDFs into courses with AI summaries, lessons, quizzes and a study coach.
 
 [![Cogni.lol homepage](docs/media/homepage.png)](docs/media/homepage.png)
 
+## A course in action
+
+Course modules → lesson notes → quizzes. Screenshots use illustrative networking content in the existing app; AI generation is not running in this demo.
+
+[![Example course with three learning modules](docs/media/course.png)](docs/media/course.png)
+
+| Lesson notes                                                              | Module quiz                                                                 |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [![Example lesson content](docs/media/lesson.png)](docs/media/lesson.png) | [![Example multiple-choice quiz](docs/media/quiz.png)](docs/media/quiz.png) |
+
 ## Run locally
 
 Requires Docker and an Anthropic API key. Copy `.env.example` to `.env`, then fill in the database settings, `SECRET_KEY` and `ANTHROPIC_API_KEY`.
